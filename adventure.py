@@ -127,7 +127,7 @@ while("quit" not in nextmove):
         else:
             print("Inventory:")
             for i in inventory:
-                print(f" {i}")
+                print(f"  {i}")
     elif "get" in nextmove:
         item = ""
         for i in range(1,len(nextmove)):
@@ -152,4 +152,4 @@ while("quit" not in nextmove):
 
     else:
         print("Use 'quit' to exit.")
-    
+  
