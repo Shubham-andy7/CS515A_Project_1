@@ -1,0 +1,34 @@
+[{
+        "name": "A white room",
+        "desc": "You are in a simple room with white walls.",
+        "exits": { "north": 1, "east": 2, "south": 4, "west": 3 },
+        "pointstoenter": 0
+    },
+    {
+        "name": "A blue room",
+        "desc": "This room is simple, too, but with blue walls.",
+        "exits": { "south": 0, "southwest": 3, "southeast": 2 },
+        "items": ["mobile", "rubik's cube", "comics", "radio"],
+        "pointstoenter": 1
+    },
+    {
+        "name": "A green room",
+        "desc": "You are in a simple room, with bright green walls.",
+        "exits": { "west": 0, "northwest": 1, "southwest": 4 },
+        "items": ["banana", "bandana", "bellows", "deck of cards"],
+        "pointstoenter": 2
+    },
+    {
+        "name": "A red room",
+        "desc": "You are in a fancy room with red walls.",
+        "exits": { "east": 0, "northeast": 1, "southeast": 4 },
+        "items": ["rose", "book", "laptop", "a glass of fresh lime juice"],
+        "pointstoenter": 3
+    },
+    {
+        "name": "A black room",
+        "desc": "This room is dark, with black walls.",
+        "exits": { "north": 0, "northwest": 3, "northeast": 2 },
+        "pointstoenter": 4
+    }
+]
