@@ -16,7 +16,7 @@ Since I used a personalized extension after taking permission to implement, I te
 
 # Bugs or Issues
 
-Currently there are no bugs or issues in the code.
+Currently there is one bug/issue in the code that is, it's not able to pass the last test case.
 
 # Resolved Issues with example
 
@@ -34,7 +34,7 @@ I solved it by checking initially whether the map has 'pointstoenter' key or not
 
 If the object is there in the inventory, it will get added to the Items list present in the current room. If it's not there in the inventory then you will get a message -> "No such item in the inventory".
 
-2. Direction: Instead of typing "go <direction>", we can just type <direction> or abbrevation(north -> n or southeast -> se) of it to go to the room located in that direction.
+2. Direction: Instead of typing "go direction", we can just type direction or abbrevation(north -> n or southeast -> se) of it to go to the room located in that direction.
 
 If we can go in the direction based on maps, then you will enter the room in that direction, else you will get a message -> "There's no way to go <direction>."
 
