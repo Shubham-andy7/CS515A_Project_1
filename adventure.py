@@ -46,7 +46,7 @@ def look():
     global curr_room, data, file
     print(f"> {data[curr_room]['name']}\n")
     print(f"{data[curr_room]['desc']}\n")
-    if 'items' in data[curr_room]:
+    if 'items' in data[curr_room] and len(data[curr_room]['items'])>0:
         item = ""
         count = 1
         for i in data[curr_room]['items']:
@@ -124,7 +124,7 @@ while("quit" not in nextmove):
         
         elif "inventory" in nextmove:
             if len(inventory) == 0:
-                print("You're not carring anything.")
+                print("You're not carrying anything.")
             else:
                 print("Inventory:")
                 for i in inventory:
