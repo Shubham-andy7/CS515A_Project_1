@@ -120,7 +120,6 @@ while("quit" not in nextmove):
 
         elif "quit" in nextmove:
             print("Goodbye!")
-            break
         
         elif "inventory" in nextmove:
             if len(inventory) == 0:
